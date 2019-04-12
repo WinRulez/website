@@ -1,0 +1,72 @@
+body{
+    background: url(img/background.jpg) no-repeat;
+    background-size: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+.header {
+    position: fixed;
+    background: url(img/header_background.jpg) no-repeat;
+    background-size: 100%;
+    text-align: left;
+    border: 3px solid rgb(0, 0, 0);
+    width: 1152px;
+    right: 377px;
+}
+
+.nav {
+    position: fixed;
+    font-family: Arial, Helvetica, sans-serif;
+    background: url(img/nav_background.jpg) no-repeat;
+    background-size: 100%;
+    text-align: center;
+    border: 3px solid rgb(0, 0, 0);
+    width: 1152px;
+    height: 30px;
+    right: 377px;
+    top: 102px;
+    overflow: hidden;
+}
+
+.pagecontent {
+    position: fixed;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(30, 30, 30);
+    background-size: 100%;
+    border: 3px solid rgb(0, 0, 0);
+    width: 1152px;
+    height: 881px;
+    right: 377px;
+    top: 160px;
+    overflow: hidden;
+}
+
+.pagecontent img.software-preview-image{
+    position: fixed;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(30, 30, 30);
+    background-size: 100%;
+    border: 3px solid rgb(0, 0, 0);
+    left: 421px;
+    overflow: hidden;
+}
+
+
+.nav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.nav a:hover {
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
+.nav a.active {
+    background-color: rgb(82, 36, 156);
+    background-size: 30px;
+    color: white;
+}
